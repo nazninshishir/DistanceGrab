@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Color1.unity
+    guid: 68d1a5708f448bf4da8c003b548bf74c
+  - enabled: 1
+    path: Assets/Scenes/Color2.unity
+    guid: 2674e4fb4df53b74d8d8833419631502
+  - enabled: 1
+    path: Assets/Scenes/Color3.unity
+    guid: a20895539a9c29b4db0b43039bce62fe
+  - enabled: 1
+    path: Assets/Scenes/Color4.unity
+    guid: 3358867beb7601d4eb14871f5bd59e32
+  - enabled: 1
+    path: Assets/Scenes/Color5.unity
+    guid: c8ef41225a3487c46a33a66afd87ea84
+  - enabled: 1
+    path: Assets/Scenes/Size1.unity
+    guid: b36c9776293a11e4ba63aeff45cd6303
+  - enabled: 1
+    path: Assets/Scenes/Size2.unity
+    guid: 5361e7027ff3f784dbf503cfc50c218e
+  - enabled: 1
+    path: Assets/Scenes/Size3.unity
+    guid: 88370c184976a6946846cd3ce68906d2
+  - enabled: 1
+    path: Assets/Scenes/Size4.unity
+    guid: 34fee2ea9c106e3488611f6f31ccef06
+  - enabled: 1
+    path: Assets/Scenes/Size5.unity
+    guid: 679226e8aa5a9784b927371455e520ca
+  - enabled: 1
+    path: Assets/Scenes/Shape1.unity
+    guid: 60d806117a25bc541a9c990171570241
+  - enabled: 1
+    path: Assets/Scenes/Shape2.unity
+    guid: 58a925b3d092cda418be2255ecf242ce
+  - enabled: 1
+    path: Assets/Scenes/Shape3.unity
+    guid: 410eef636b30d5a4f8247769304b62d4
+  - enabled: 1
+    path: Assets/Scenes/Shape4.unity
+    guid: 0546d8ef14d6dad498de60b0f9a56508
+  - enabled: 1
+    path: Assets/Scenes/Shape5.unity
+    guid: c5634e0733c35a04eab4b2815951f083
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9d3bbbfbb5d6c8740b7d8e30d5a2f6af, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a67502451899ee14a85d9978c76e2fb6, type: 2}
