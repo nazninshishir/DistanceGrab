@@ -276,13 +276,8 @@ namespace Oculus.Interaction.HandGrab
 
             if (score.IsValid())
             {
-                // Change the color of the interactable to white
-                Renderer renderer = interactable.GetComponent<Renderer>();
-                if (renderer != null)
-                {
-                    renderer.material.color = Color.white;
-                }
                 return interactable;
+                
             }
 
             return null;

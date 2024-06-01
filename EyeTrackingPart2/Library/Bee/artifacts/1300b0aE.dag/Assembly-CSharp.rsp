@@ -562,6 +562,8 @@
 "Assets/Scripts/EyeInteractable.cs"
 "Assets/Scripts/EyeTrackingRay.cs"
 "Assets/Scripts/MoveObject.cs"
+"Assets/Scripts/Practice.cs"
+"Assets/Scripts/SelectionTextHandler.cs"
 "Assets/Scripts/Shape1.cs"
 "Assets/Scripts/Shape2.cs"
 "Assets/Scripts/Shape3.cs"

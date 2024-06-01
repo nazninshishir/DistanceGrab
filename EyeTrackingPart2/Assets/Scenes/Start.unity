@@ -637,7 +637,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1706732147}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38400383e55117040bd59ebda1fbdcd1, type: 3}
+  m_Script: {fileID: 11500000, guid: 0063ed52399bd7348a8439ee286ba377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1893926408
@@ -674,11 +674,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 172039863338695678, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 650
+      value: 689.5393
       objectReference: {fileID: 0}
     - target: {fileID: 172039863338695678, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1000
+      value: 1149.1216
       objectReference: {fileID: 0}
     - target: {fileID: 172039863338695678, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_LocalPosition.x
@@ -710,11 +710,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 172039863338695678, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.23
+      value: 0.2768
       objectReference: {fileID: 0}
     - target: {fileID: 172039863338695678, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.842
+      value: 1.0284
       objectReference: {fileID: 0}
     - target: {fileID: 172039863338695678, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -728,17 +728,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1238288700861823558, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 666.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238288700861823558, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1074.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238288700861823558, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238288700861823558, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -8.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238288700861823558, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 37.4
+      objectReference: {fileID: 0}
     - target: {fileID: 2061609964902681012, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -300
+      value: -391
       objectReference: {fileID: 0}
     - target: {fileID: 2352258847429705859, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_Text
       value: BEGIN
       objectReference: {fileID: 0}
     - target: {fileID: 3509643555615899368, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 597.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509643555615899368, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 600
+      value: 841
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509643555615899368, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509643555615899368, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 10.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509643555615899368, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 242
       objectReference: {fileID: 0}
     - target: {fileID: 3537370863309395559, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_Camera
@@ -759,9 +795,11 @@ PrefabInstance:
         containing different color, size, and shapes of objects. Each types of environment
         have five different sub tasks.\n You will be required to select and grab
         specific object in each scene as per the instruction. Point your hand at
-        the desired object. Once selected the object should turn white. After selecting,
-        use your bare hand grab posture to grab it.\nWhenever you are prepared for
-        the test let the assistant know it."
+        the desired object. Once selected a message \"SELECTED\" would appear on
+        the top of the object. After selecting, use your bare hand grab posture to
+        grab it.\nBefore starting the Actual task you will be taken to a Practice
+        task. \nWhenever you are prepared for the main task let the assistant know
+        it."
       objectReference: {fileID: 0}
     - target: {fileID: 8852460159185593156, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_Name
