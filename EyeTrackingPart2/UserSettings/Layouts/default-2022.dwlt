@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 103
+  controlID: 17
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 43
+  controlID: 18
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 44
+  controlID: 19
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -594,9 +594,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.36, y: 1.2414577, z: -2.1860876}
+    m_Target: {x: 0.068496734, y: -0.34537637, z: -0.44656765}
     speed: 2
-    m_Value: {x: 1.36, y: 1.2414577, z: -2.1860876}
+    m_Value: {x: 0.068496734, y: -0.34537637, z: -0.44656765}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -646,9 +646,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.022085072, y: -0.96773684, z: 0.23374657, w: -0.09143511}
   m_Size:
-    m_Target: 0.39102042
+    m_Target: 0.8660254
     speed: 2
-    m_Value: 0.39102042
+    m_Value: 0.8660254
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -710,23 +710,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 0822fdff6c23fdff7223fdffd823fdff2c28fdffbc28fdff502bfdffb42cfdffba2cfdff202dfdff7031fdff7431fdff3632fdfffc34fdff6036fdff6636fdffcc36fdff203bfdffb03bfdffd23efdff3640fdff3c40fdffa240fdfff244fdfff644fdff2a45fdff7e48fdffe249fdffe849fdff4e4afdffa24efdffa44efdff2051fdff8452fdff8a52fdfff052fdff4057fdff4457fdff3458fdff005bfdff645cfdff6a5cfdffd05cfdff2461fdffb461fdff4e64fdffb265fdffb865fdff1e66fdff726afdff346bfdff8e6efdfff26ffdfff86ffdff5e70fdffae74fdffb274fdffb474fdff2077fdff8478fdff8a78fdfff078fdff447dfdff347efdff2481fdff8882fdff8e82fdfff482fdff3a87fdff4487fdff4887fdffaa87fdff9a8afdfffe8bfdff048cfdff6a8cfdffbe90fdff2091fdff8293fdffe694fdffec94fdff5295fdffa699fdff969afdfff89cfdff5c9efdff629efdffc89efdff1ca3fdff0ca4fdffb8a6fdffdca6fdff40a8fdff46a8fdffaca8fdff00adfdff90adfdff2aebfdffe6f4fdffd0f6fdffe0f6fdff40f7fdff64f7fdffc8f8fdffecf8fdff50fafdff56fafdffbcfafdff10fffdff12fffdff2212feff3212feffc41afeff0839feff1839feff1a39feff463afeff563afeff8842feff0a4dfeff1a4dfeff1c4dfeffbc9dfeffcc9dfeff2e9efeffc6aafeffd6aafeff08b3feff5cb4feff6cb4fefffebcfeffdef7feffeef7feff50f8feff2ef9feff3ef9feffd001ffff4611ffff5611ffffb811ffffd41affff0e1effff1e1effffb026ffffeef2ffff52f4ffffdaf5ffffe0f5ffff46f6ffff60f8ffff68f8ffff72faffff8cfaffffb8faffffc8faffff28fbffff2afbffff1c6e0000306e00005a6e00000ece000070ce0000e6ce000096040100a8360100
+      m_SelectedIDs: 2cf3ffff
+      m_LastClickedID: -3284
+      m_ExpandedIDs: 48f3ffff58f3ffff7cf3ffffe0f4ffff6ef6ffffd4f6ffff28fbffff2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Pink
-        m_OriginalName: Pink
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 79528
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -913,7 +913,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -921,16 +921,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\naznin.shishir1\Documents\GitHub\DistanceGrab\EyeTrackingPart2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: f67f0000
-    m_LastClickedID: 32758
-    m_ExpandedIDs: 00000000847f0000867f0000887f00008a7f00008c7f00008e7f0000907f0000927f0000947f0000967f0000987f00009a7f00009c7f00009e7f0000a07f0000a27f0000a47f0000a67f0000a87f0000aa7f0000ac7f0000ae7f0000b07f0000b27f0000b47f0000b67f0000b87f0000b683000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 1650}
+    m_SelectedIDs: e0800000
+    m_LastClickedID: 32992
+    m_ExpandedIDs: 00000000cc7f0000ce7f0000d07f0000d27f0000d47f0000d67f0000d87f0000da7f0000dc7f0000de7f0000e07f0000e27f0000e47f0000e67f0000e87f0000ea7f0000ec7f0000ee7f0000f07f0000f27f0000f47f0000f67f0000f87f0000fa7f0000fc7f0000fe7f0000008000000280000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -958,7 +958,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000847f0000867f0000887f00008a7f00008c7f00008e7f0000907f0000927f0000947f0000967f0000987f00009a7f00009c7f00009e7f0000a07f0000a27f0000a47f0000a67f0000a87f0000aa7f0000ac7f0000ae7f0000b07f0000b27f0000b47f0000b67f0000b87f0000
+    m_ExpandedIDs: 00000000cc7f0000ce7f0000d07f0000d27f0000d47f0000d67f0000d87f0000da7f0000dc7f0000de7f0000e07f0000e27f0000e47f0000e67f0000e87f0000ea7f0000ec7f0000ee7f0000f07f0000f27f0000f47f0000f67f0000f87f0000fa7f0000fc7f0000fe7f00000080000002800000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
