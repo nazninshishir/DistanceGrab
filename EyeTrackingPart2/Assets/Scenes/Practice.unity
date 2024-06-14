@@ -1910,7 +1910,7 @@ GameObject:
   - component: {fileID: 725230210}
   - component: {fileID: 725230209}
   m_Layer: 7
-  m_Name: Pink (1)
+  m_Name: Brown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3094,7 +3094,7 @@ GameObject:
   - component: {fileID: 1183071722}
   - component: {fileID: 1183071723}
   m_Layer: 11
-  m_Name: Yellow
+  m_Name: Teal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3745,16 +3745,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481927155}
-  m_LocalRotation: {x: -0.0069706687, y: -0.35486186, z: -0.01289791, w: 0.9348038}
-  m_LocalPosition: {x: 0, y: 0, z: 0.41398823}
+  m_LocalRotation: {x: -0.0006333305, y: -0.7277001, z: -0.014647364, w: 0.68573874}
+  m_LocalPosition: {x: 0, y: 0, z: 0.4215063}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 266776288}
-  m_LocalEulerAnglesHint: {x: -1.271, y: -41.562, z: -1.099}
+  m_LocalEulerAnglesHint: {x: -1.271, y: -93.389, z: -1.099}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.7629359, y: 0.51814854}
+  m_AnchoredPosition: {x: 0.6914412, y: 0.51814854}
   m_SizeDelta: {x: 3.007, y: 1.038}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1481927157
@@ -4431,6 +4431,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2061609964902681012, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -254
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509643555615899368, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509643555615899368, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 86
+      objectReference: {fileID: 0}
     - target: {fileID: 3537370863309395559, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_Camera
       value: 
@@ -4442,6 +4454,7 @@ PrefabInstance:
     - target: {fileID: 6633284137969123484, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_Text
       value: 'PRACTICE TASK
+
 
         Point your hand at any cube to select it. When
         selected a message "SELECTED" would appear on the top of the cube. After
